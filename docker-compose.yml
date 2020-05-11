@@ -73,7 +73,7 @@ services:
             - ./data/memcached:/var/lib/memcached
             - ./www/html:/var/www/html
             - ${SITE_PATH}:/var/www/bitrix
-            - /etc/localtime:/etc/localtime/:ro
+            #- /etc/localtime:/etc/localtime/:ro 
         networks:
             - bitrix
 networks:
